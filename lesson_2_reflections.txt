@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repostiry you are given the tools to start tracking the folder - commit changes, review the history.
+You have to explicitly say that you need a repository in the current folder since by default you might not wish to create a repository in every folder.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It's a different concept. It gives us a way to say which changes to files to commit
