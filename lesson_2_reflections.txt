@@ -1,8 +1,29 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-When you initialize a repostiry you are given the tools to start tracking the folder - commit changes, review the history.
-You have to explicitly say that you need a repository in the current folder since by default you might not wish to create a repository in every folder.
+	When you initialize a repostiry you are given the tools to start tracking the folder - commit changes, review the history.
+	You have to explicitly say that you need a repository in the current folder since by default you might not wish to create a repository in every folder.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-It's a different concept. It gives us a way to say which changes to files to commit
+	It's a different concept. It gives us a way to say which changes to files to commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	We can regard the stating area as a temporarily working place and when it's full containg a complete idea we make a commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	Using branches we keep our history organized in logical units.
+
+How do the diagrams help you visualize the branch structure?
+
+	It's much easier to understand the concept.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It a new commit in which all changes from two branches are merged in one. We use a diagram so we could easily understand the process.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	pros: easy to use
+	cons: it might do something we don't intend it to do
